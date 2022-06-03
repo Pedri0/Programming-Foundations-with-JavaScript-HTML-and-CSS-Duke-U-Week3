@@ -19,8 +19,8 @@
       class="headerImg"
     />
 
-    <div id="btnContainer">
-      <div id="btnDiv">
+    <div class="btnContainer">
+      <div class="btnDiv">
         <h2 id="hBtn">Buttons with JavaScript</h2>
         <div>
           <input
@@ -41,12 +41,47 @@
         </div>
       </div>
 
-      <div id="extraDiv">
+      <div id="extraDiv" class="leftDiv">
         <h2>Description</h2>
         <p>Left side buttons are a demo for interactive buttons</p>
+        <input
+          type="button"
+          class="changeBackgroundColor"
+          value="click to disable background color of this div"
+          onclick="changeColor()"
+        />
+        <input
+          type="button"
+          class="changeBackgroundColor"
+          value="click to return to custom background color of this div"
+          onclick="returnColor()"
+        />
       </div>
     </div>
 
+    <div class="btnContainer">
+      <div class="btnDiv">
+        <h2>Change text with JavaScript</h2>
+        <div>
+          <input
+            type="button"
+            value="Change left text"
+            id="textBtn"
+            onclick="changeText()"
+          />
+        </div>
+      </div>
+
+      <div id="textDiv" class="leftDiv">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint enim reiciendis explicabo, culpa sapiente id, ipsa voluptatem eaque esse, quis doloribus maxime qui reprehenderit quod consequatur beatae totam hic similique!</p>
+        <input
+          type="button"
+          class="changeBackgroundColor"
+          value="click to change text in right button"
+          onclick="changeBtn()"
+        />
+      </div>
+    </div>
 
     <footer>
       <h5>Made by pedri0</h5>

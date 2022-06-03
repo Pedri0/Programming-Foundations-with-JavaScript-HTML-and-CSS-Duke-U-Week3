@@ -16,7 +16,7 @@ header {
     margin-bottom: 20px;
 }
 
-#btnDiv {
+.btnDiv {
     position: absolute;
     margin: 0 auto;
     text-align: center;
@@ -29,7 +29,7 @@ header {
     float: left;
 }
 
-#extraDiv {
+.leftDiv {
     float: right;
     display: block;
     background: rgb(240, 124, 188);
@@ -37,6 +37,7 @@ header {
     height: 200px;
     border-radius: 10px;
     text-align: center;
+    margin: 5px;
 
 }
 
@@ -63,9 +64,48 @@ header {
     margin-top: 8px;
 }
 
-#btnContainer{
+.btnContainer{
     overflow: hidden;
     width: 100%;
     min-height: 36px;
     position: relative;
+}
+
+.whiteDiv {
+    float: right;
+    display: block;
+    background: white;
+    width: 50%;
+    height: 200px;
+    border-radius: 0px;
+    text-align: left;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.changeBackgroundColor {
+    background-color: rgb(161, 161, 219);
+    padding: 5px;
+    margin: 5px;
+    border-radius: 6px;
+    border: dashed;
+    border-color: rgb(166, 219, 219);
+    border-width: 1px;
+    background: linear-gradient(0deg, rgb(185, 96, 145) 19%, rgba(253,187,45,1) 100%);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: azure;
+    font-size: 16px;
+}
+
+#textBtn {
+    background-color: rgb(185, 68, 196);
+    border: none;
+    border-radius: 30px;
+    padding: 6px 13px 6px 13px;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
+.textDiv{
+    padding: 25px;
 }
