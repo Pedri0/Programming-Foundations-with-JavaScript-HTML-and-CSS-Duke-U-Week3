@@ -208,7 +208,7 @@ input::placeholder {
 
 .todoList {
     margin: auto;
-    color: white;
+    color: black;
     background-color: #fa8bff;
     background-image: linear-gradient(45deg,
             #fa8bff 0%,
