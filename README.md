@@ -3,4 +3,4 @@
 <p>This is my second hello world for Front-End Dev. <br />
 The styled HTML looks like this <br />
 Made with love &#x1F49C;</p>
-<img src="index.png"/>
+<img src="home.png"/>
